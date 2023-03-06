@@ -1,4 +1,6 @@
-# Explain why we need domain modeling.
+# Read 07 notes
+
+## Explain why we need domain modeling.
 * Domain modeling is important in software engineering because it helps developers better understand the requirements of the problem they are trying to solve and design solutions that are more closely aligned with stakeholders' needs. It allows developers to break down complex systems into smaller, more manageable parts, identify relationships between them, and gain a deeper understanding of the entities, attributes, and behaviors in the problem domain. This can help to identify potential problems early in the development process and facilitate communication between stakeholders.
 
 
