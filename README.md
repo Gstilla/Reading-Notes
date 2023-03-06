@@ -14,5 +14,9 @@ Notes for Code School
 * [Read 05 notes](https://github.com/Gstilla/Reading-Notes/blob/main/read05.md)
 
 * [Read 06 notes](https://github.com/Gstilla/Reading-Notes/blob/main/read06.md)
+
+* [Read 07 notes](https://github.com/Gstilla/Reading-Notes/blob/main/read07.md)
+
+
 # Class 401
 
