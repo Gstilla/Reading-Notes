@@ -19,5 +19,5 @@ Notes for Code School
 
 * [Read 08 notes](https://github.com/Gstilla/Reading-Notes/blob/main/read08.md)
 
-# Class 401
+
 
