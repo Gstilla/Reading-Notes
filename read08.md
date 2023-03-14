@@ -1,72 +1,31 @@
-# The Comparison Operators
-in JavaScript are used to compare the values of two operands and return a boolean value (true or false) based on the result of the comparison. The comparison can be between numerical, string, logical, or object values.
+# Read 08 Notes
 
-There are two types of comparison operators in JavaScript: equality comparison operators and relational comparison operators.
+## Flexbox is designed for one-dimensional content. Explain what this means.
+* Flexbox is a layout mode in CSS for alignment and positioning of items within a container.
+* It is one-dimensional, meaning it focuses on either horizontal or vertical dimension, but not both at the same time.
+* Flexbox allows for responsive designs and precise control over element placement and spacing.
+* It is commonly used for navigation bars and vertical lists.
 
-### The equality comparison operators are:
+## Explain the difference between the main axis and cross axis.
+* Flexbox has two possible directions for item alignment: the main axis and cross axis.
+* The main axis is the primary axis of alignment, determined by the flex-direction property.
+* The cross axis is perpendicular to the main axis and determines the secondary axis of alignment.
+* The two axes work together to define the direction of the Flexbox layout.
+* The main axis and cross axis provide flexibility in aligning and positioning items within a container.
 
-* (equal to): returns true if the operands are equal. This operator performs type conversion to make the comparison if the operands are of different types.
-*  (not equal to): returns true if the operands are not equal. This operator performs type conversion to make the comparison if the operands are of different types.
-The strict equality comparison operators are:
+## How can using certain properties of flexbox negatively impact accessibility?
+* Using the order property can change the visual layout of elements without changing their position in the HTML source code. This can create confusion for screen reader users who rely on the source order to understand the content.
 
-* (strict equal to): returns true if the operands are equal and of the same type. This operator does not perform type conversion.
-* (strict not equal to): returns true if the operands are not equal or are of different types. This operator does not perform type conversion.
-* 
-### The relational comparison operators are:
+* Setting fixed widths or heights on flex items can cause them to overflow or become too small, making them difficult to read for users with visual impairments.
 
-* (greater than): returns true if the left operand is greater than the right operand.
-* (greater than or equal to): returns true if the left operand is greater than or equal to the right operand.
-* (less than): returns true if the left operand is less than the right operand.
-* (less than or equal to): returns true if the left operand is less than or equal to the right operand.
-It's important to note that when comparing strings, JavaScript uses standard lexicographical ordering, which means it compares the Unicode values of each character in the strings.
+* Using flex-basis or flex-grow properties to change the size or position of elements can affect the tab order and keyboard navigation, which is important for users who rely on keyboard access.
 
+* Changing the default direction of the main axis can disrupt the natural reading order of text for users who rely on screen readers.
 
+## What are some advantages of using flexbox over float?
 
-# Assignment Operators
-An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = f() is an assignment expression that assigns the value of f() to x.
-
-There are also compound assignment operators that are shorthand for the operations listed in the following table:
-
-Name	Shorthand operator	Meaning
-* Assignment	x = f()	x = f()
-* Addition assignment	x += f()	x = x + f()
-* Subtraction assignment	x -= f()	x = x - f()
-* Multiplication assignment	x *= f()	x = x * f()
-* Division assignment	x /= f()	x = x / f()
-* Remainder assignment	x %= f()	x = x % f()
-* Exponentiation assignment	x **= f()	x = x ** f()
-* Left shift assignment	x <<= f()	x = x << f()
-* Right shift assignment	x >>= f()	x = x >> f()
-* Unsigned right shift assignment	x >>>= f()	x = x >>> f()
-* Bitwise AND assignment	x &= f()	x = x & f()
-* Bitwise XOR assignment	x ^= f()	x = x ^ f()
-* Bitwise OR assignment	x	= f()
-* Logical AND assignment	x &&= f()	x && (x = f())
-* Logical OR assignment	x	
-* Nullish coalescing assignment	x ??= f()	x ?? (x = f())
-### Assigning to properties
-If an expression evaluates to an object, then the left-hand side of an assignment expression may make assignments to properties of that expression. For example:
-
-javascript
-const obj = {};
-
-* obj.x = 3;
-console.log(obj.x); // Prints 3.
-console.log(obj); // Prints { x: 3 }.
-
-const key = "y";
-obj[key] = 5;
-console.log(obj[key]); // Prints 5.
-console.log(obj); // Prints { x: 3, y: 5 }.
-* If an expression does not evaluate to an object, then assignments to properties of that expression do not assign:
-
-const val = 0;
-val.x = 3;
-
-console.log(val.x); // Prints undefined.
-console.log(val); // Prints 0.
-* In strict mode, the code above throws, because one cannot assign properties to primitives.
- It is an error to assign values to unmodifiable properties or to properties of an expression without properties (null or undefined).
-
-## Destructuring
-For more complex assignments, the destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
+* Flexbox allows for easier and more flexible layout of elements in one dimension (either horizontally or vertically) than float.
+* Flexbox can help with creating responsive designs and handling varying screen sizes by providing control over the distribution of space between and around items.
+* With flexbox, the order of items can be changed without changing the HTML markup, making it easier to reorganize content for different devices or screen sizes.
+* Flexbox offers better support for aligning items both horizontally and vertically, as well as for centering elements both horizontally and vertically, compared to float.
+* Flexbox is generally easier to understand and more intuitive to use than float, making it a good choice for developers who are new to web design.
