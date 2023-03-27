@@ -17,7 +17,10 @@ Notes for Code School
 
 * [Read 07 Notes](https://github.com/Gstilla/Reading-Notes/blob/main/read07.md)
 
-* [Read 08 notes](https://github.com/Gstilla/Reading-Notes/blob/main/read08.md)
+* [Read 08 Notes](https://github.com/Gstilla/Reading-Notes/blob/main/read08.md)
 
+* [Read 09 Notes](https://github.com/Gstilla/Reading-Notes/blob/main/read08.md)
+
+* [Read 10 Notes](https://github.com/Gstilla/Reading-Notes/blob/main/class10.md)
 
 
